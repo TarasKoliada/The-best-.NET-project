@@ -1,0 +1,7 @@
+D:\.NET shop\dotNET_shop\bin\Debug\dotNET_shop.exe.config
+D:\.NET shop\dotNET_shop\bin\Debug\dotNET_shop.exe
+D:\.NET shop\dotNET_shop\bin\Debug\dotNET_shop.pdb
+D:\.NET shop\dotNET_shop\obj\Debug\dotNET_shop.csproj.CoreCompileInputs.cache
+D:\.NET shop\dotNET_shop\obj\Debug\dotNET_shop.exe
+D:\.NET shop\dotNET_shop\obj\Debug\dotNET_shop.pdb
+D:\.NET shop\dotNET_shop\obj\Debug\dotNET_shop.csproj.AssemblyReference.cache

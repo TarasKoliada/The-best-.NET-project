@@ -16,18 +16,18 @@ namespace dotNET_shop
         public int Id { get; set; }
 
         private static int idIterator = 0;
-        public void errorMsg()
+        public void ErrorMsg()
         {
             Console.WriteLine("\n!!!!!!!!!!!!!!!!!! Wrong Input Format !!!!!!!!!!!!!!!!!!");
         }
-        public void showProductInfo()
+        public void ShowProductInfo()
         {
             Console.WriteLine($"\nID: {Id}");
             Console.WriteLine($"Name: {Name}");
             Console.WriteLine($"Price: {Price}$");
             Console.WriteLine($"Category: {Category}");
         }
-        public void showChoiseMenu()
+        public void ShowChoiseMenu()
         {
             Console.WriteLine("\nSelect an action: ");
             Console.WriteLine("1) Get all prooducts.");
@@ -36,7 +36,7 @@ namespace dotNET_shop
             Console.WriteLine("0) Exit");
             Console.Write("Your choise: ");
         }
-        public void getAllProducts()
+        public void GetAllProducts()
         {
             if (list.Count == 0)
             {
@@ -46,11 +46,11 @@ namespace dotNET_shop
             {
                 foreach (Product item in list)
                 {
-                    item.showProductInfo();
+                    item.ShowProductInfo();
                 }
             }
         }
-        public void addProduct()
+        public void AddProduct()
         {
             string name, category, stringPrice, stringExit;
             int exit = 0;
@@ -74,18 +74,18 @@ namespace dotNET_shop
                     stringExit = Console.ReadLine();
                     if (int.TryParse(stringExit, out exit) == false)
                     {
-                        errorMsg();
+                        ErrorMsg();
                         break;
                     }
                 }
                 else
                 {
-                    errorMsg();
+                    ErrorMsg();
                     break;
                 }
             }
         }
-        public void removeProduct()
+        public void RemoveProduct()
         {
             if (list.Count != 0)
             {
@@ -108,7 +108,7 @@ namespace dotNET_shop
                 }
                 else
                 {
-                    errorMsg();
+                    ErrorMsg();
                 }
                 if (list.Count == 0)
                 {

@@ -10,28 +10,31 @@ namespace dotNET_shop
     {
         static void Main(string[] args)
         {
-            var product = new Product();
-            int choise;
-            do
-            {
-                product.showChoiseMenu();
-                choise = int.Parse(Console.ReadLine());
-                switch (choise)
-                {
-                    case 1:
-                        product.getAllProducts();
-                        break;
-                    case 2:
-                        product.addProduct();
-                        break;
-                    case 3:
-                        product.removeProduct();
-                        break;
-                    default:
-                        product.errorMsg();
-                        break;
-                }
-            } while (choise != 0);
+            //var product = new Product();
+            //int choise;
+            //do
+            //{
+            //    product.ShowChoiseMenu();
+            //    choise = int.Parse(Console.ReadLine());
+            //    switch (choise)
+            //    {
+            //        case 1:
+            //            product.GetAllProducts();
+            //            break;
+            //        case 2:
+            //            product.AddProduct();
+            //            break;
+            //        case 3:
+            //            product.RemoveProduct();
+            //            break;
+            //        default:
+            //            product.ErrorMsg();
+            //            break;
+            //    }
+            //} while (choise != 0);
+            Menu menu = new Menu();
+            menu.GetMenu();
+            
 
         }
     }

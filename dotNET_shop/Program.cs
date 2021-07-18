@@ -10,6 +10,7 @@ namespace dotNET_shop
     {
         static void Main(string[] args)
         {
+            //-----Product Logic------
             //var product = new Product();
             //int choise;
             //do
@@ -32,10 +33,36 @@ namespace dotNET_shop
             //            break;
             //    }
             //} while (choise != 0);
-            Menu menu = new Menu();
-            menu.GetMenu();
-            
 
+
+            //-------Menu Logic (Partly)-------
+            //Menu menu = new Menu();
+            //menu.GetMenu();
+
+
+            //------Category logic-------
+            Category category = new Category();
+            int choise;
+            do
+            {
+                Console.WriteLine("\n1) Add category");
+                Console.WriteLine("2) Show category");
+                Console.WriteLine("3) Remove category");
+                Console.Write("Your Choise: ");
+                choise = int.Parse(Console.ReadLine());
+                switch (choise)
+                {
+                    case 1:
+                        category.AddCategory();
+                        break;
+                    case 2:
+                        category.ShowCategory();
+                        break;
+                    case 3:
+                        category.RemoveCategory();
+                        break;
+                }
+            } while (choise != 0);
         }
     }
 }

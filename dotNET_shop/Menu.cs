@@ -14,6 +14,7 @@ namespace dotNET_shop
         private List<Menu> SubItems = new List<Menu>();
 
         private Product product = new Product();
+        private Category category = new Category();
         private void Initialize()
         {
 
@@ -66,8 +67,8 @@ namespace dotNET_shop
                         {
                             new Menu
                             {
-                                Title = "Show All"
-                               // Action = category.ShowCategory
+                                Title = "Show All",
+                                Action = category.ShowCategory
                                 
                             },
                             new Menu
@@ -79,13 +80,13 @@ namespace dotNET_shop
                     },
                     new Menu
                     {
-                        Title = "Add Category"
-                        //Action = category.AddCategory
+                        Title = "Add Category",
+                        Action = category.AddCategory
                     },
                     new Menu
                     {
-                        Title = "Delete Category"
-                        //Action = category.RemoveCategory
+                        Title = "Delete Category",
+                        Action = category.RemoveCategory
                     }
                 }
             });
@@ -97,29 +98,6 @@ namespace dotNET_shop
         }
         private void ShowMenu()
         {
-            /*ConsoleKeyInfo key;
-            int currentPos = 0;
-            do
-            {
-                for (int i = 0; i < MenuItems.Count; i++)
-                {
-                    if (currentPos == i)
-                    {
-                        Console.Write($" => {MenuItems[i].Title}\n");
-                    }
-                    else
-                    {
-                        Console.WriteLine(MenuItems[i].Title);
-                    }
-                }
-
-                key = Console.ReadKey();
-            } while (key.Key != ConsoleKey.Escape);*/
-
-
-
-
-
                /* foreach (Menu mainMenu in MenuItems)
                 {
                     Console.WriteLine(mainMenu.Title);

@@ -124,10 +124,87 @@ namespace dotNET_shop
                 }
             }
         }
+        public void NavMenu()
+        {
+            ConsoleKeyInfo keyPushed, subKeyPushed;
+            int mainMenuPosition = 0;
+            int subMenuPosition = 0;
+            do
+            {
+                for (int i = 0; i < MenuItems.Count; i++)
+                {
+                    if (i == mainMenuPosition)
+                    {
+                        Console.WriteLine($"-> {i + 1}. {MenuItems[i].Title}");
+                        if (subMenuPosition == 1)
+                        {
+                            do
+                            {
+                                for (int j = 0; j < MenuItems[i].SubItems.Count; j++)
+                                {
+                                    if (j == subMenuPosition - 1)
+                                    {
+                                        Console.WriteLine($"   -> {j + 1}.{MenuItems[i].SubItems[j].Title}");
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine($"     {j + 1}.{MenuItems[i].SubItems[j].Title}");
+                                    }
+                                }
+                                ///
+                                subKeyPushed = Console.ReadKey();
+                                if (subKeyPushed.Key == ConsoleKey.DownArrow)
+                                {
+                                    Console.Clear();
+                                    subMenuPosition++;
+                                }
+                                if (subKeyPushed.Key == ConsoleKey.UpArrow)
+                                {
+                                    Console.Clear();
+                                    subMenuPosition--;
+                                }
+                            } while (subKeyPushed.Key != ConsoleKey.LeftArrow);
+                            ///
+                        }  
+                    }
+                    else if (i != mainMenuPosition)
+                    {
+                        Console.WriteLine($"{i + 1}. {MenuItems[i].Title}");
+                    }
+                }
+                keyPushed = Console.ReadKey();
+                if (keyPushed.Key == ConsoleKey.DownArrow)
+                {
+                    Console.Clear();
+                    subMenuPosition = 0;
+                    mainMenuPosition++;
+                }
+                if (keyPushed.Key == ConsoleKey.UpArrow)
+                {
+                    Console.Clear();
+                    subMenuPosition = 0;
+                    mainMenuPosition--;
+                }
+                if (keyPushed.Key == ConsoleKey.RightArrow)
+                {
+                    Console.Clear();
+                    subMenuPosition = 0;
+                    subMenuPosition++;
+                }
+                if (keyPushed.Key == ConsoleKey.LeftArrow)
+                {
+                    Console.Clear();
+                    subMenuPosition = 0;
+                    subMenuPosition--;
+                }
+
+            } while (keyPushed.Key != ConsoleKey.Escape);
+        }
         public void GetMenu()
         {
             Initialize();
-            ShowMenu();
+            //ShowMenu();
+            NavMenu();
         }
     }
 }

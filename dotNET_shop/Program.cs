@@ -73,11 +73,11 @@ namespace dotNET_shop
 
 
 
-            
 
 
 
-            var menu = new List<string>();
+
+            /*var menu = new List<string>();
             menu.Add("1) menu1");
             menu.Add("2) menu2");
             menu.Add("3) menu3");
@@ -120,9 +120,14 @@ namespace dotNET_shop
                     Console.Clear();
                     position--;
                 }
-            } while (keyPushed.Key != ConsoleKey.Escape);
+            } while (keyPushed.Key != ConsoleKey.Escape);*/
 
-            
+
+
+
+
+            Menu menu = new Menu();
+            menu.GetMenu();
         }
     }
 }

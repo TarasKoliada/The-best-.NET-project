@@ -15,6 +15,10 @@ namespace dotNET_shop
 
         private Product product = new Product();
         private Category category = new Category();
+
+        //ConsoleKeyInfo keyPushed, subKeyPushed;
+        //int mainMenuPosition = 0;
+        //int subMenuPosition = 0;
         private void Initialize()
         {
 
@@ -133,8 +137,10 @@ namespace dotNET_shop
             {
                 for (int i = 0; i < MenuItems.Count; i++)
                 {
+
                     if (i == mainMenuPosition)
                     {
+
                         Console.WriteLine($"-> {i + 1}. {MenuItems[i].Title}");
                         if (subMenuPosition == 1)
                         {
@@ -157,17 +163,30 @@ namespace dotNET_shop
                                 {
                                     Console.Clear();
                                     subMenuPosition++;
+                                    if (subMenuPosition == MenuItems[i].SubItems.Count + 1)
+                                    {
+                                        subMenuPosition = 1;
+                                    }
                                 }
                                 if (subKeyPushed.Key == ConsoleKey.UpArrow)
                                 {
                                     Console.Clear();
                                     subMenuPosition--;
+                                    if (subMenuPosition == 0)
+                                    {
+                                        subMenuPosition = MenuItems[i].SubItems.Count;
+                                    }
                                 }
-                            } while (subKeyPushed.Key != ConsoleKey.LeftArrow);
+                                if (subKeyPushed.Key == ConsoleKey.LeftArrow)
+                                {
+                                    Console.Clear();
+                                    NavMenu();
+                                }
+                            } while (subKeyPushed.Key != ConsoleKey.Escape);
                             ///
-                        }  
+                        }
                     }
-                    else if (i != mainMenuPosition)
+                    else
                     {
                         Console.WriteLine($"{i + 1}. {MenuItems[i].Title}");
                     }
@@ -178,12 +197,21 @@ namespace dotNET_shop
                     Console.Clear();
                     subMenuPosition = 0;
                     mainMenuPosition++;
+                    if (mainMenuPosition == MenuItems.Count)
+                    {
+                        mainMenuPosition = 0;
+                    }
                 }
                 if (keyPushed.Key == ConsoleKey.UpArrow)
                 {
+
                     Console.Clear();
                     subMenuPosition = 0;
                     mainMenuPosition--;
+                    if (mainMenuPosition < 0)
+                    {
+                        mainMenuPosition = MenuItems.Count - 1;
+                    }
                 }
                 if (keyPushed.Key == ConsoleKey.RightArrow)
                 {
@@ -197,7 +225,6 @@ namespace dotNET_shop
                     subMenuPosition = 0;
                     subMenuPosition--;
                 }
-
             } while (keyPushed.Key != ConsoleKey.Escape);
         }
         public void GetMenu()
@@ -208,4 +235,3 @@ namespace dotNET_shop
         }
     }
 }
-

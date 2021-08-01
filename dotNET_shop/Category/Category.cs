@@ -8,11 +8,11 @@ namespace dotNET_shop
 {
     class Category
     {
-        List<Category> categories = new List<Category>();
+        //List<Category> categories = new List<Category>();
         public string category { get; set; }
         public int Id { get; set; }
 
-        private static int idIterator = 0;
+       /* private static int idIterator = 0;
 
         private void ErrorMsg()
         {
@@ -95,6 +95,6 @@ namespace dotNET_shop
             {
                 Console.WriteLine("\n---There are no Categories to delete---");
             }
-        }
+        }*/
     }
 }

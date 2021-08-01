@@ -13,8 +13,15 @@ namespace dotNET_shop
         private List<Menu> MenuItems = new List<Menu>();
         private List<Menu> SubItems = new List<Menu>();
 
+        private GetProduct getProduct = new GetProduct();
+        private ProductAdding addProd = new ProductAdding();
+        private ProductRemoving removeProd = new ProductRemoving();
         private Product product = new Product();
+
         private Category category = new Category();
+        private CategoryAdding addCategory = new CategoryAdding();
+        private GetCategory getCategory = new GetCategory();
+        private CategoryRemoving removeCategory = new CategoryRemoving();
 
         //ConsoleKeyInfo keyPushed, subKeyPushed;
         //int mainMenuPosition = 0;
@@ -36,7 +43,7 @@ namespace dotNET_shop
                             new Menu
                             {
                                 Title = "Show All",
-                                Action = product.GetAllProducts
+                                Action = getProduct.Show
 
                             },
                             new Menu
@@ -49,12 +56,12 @@ namespace dotNET_shop
                     new Menu
                     {
                         Title = "Add Product",
-                        Action = product.AddProduct
+                        Action = addProd.AddProduct
                     },
                     new Menu
                     {
                         Title = "Delete Product",
-                        Action = product.RemoveProduct
+                        Action = removeProd.RemoveProduct
                     }
                 }
             });
@@ -72,7 +79,7 @@ namespace dotNET_shop
                             new Menu
                             {
                                 Title = "Show All",
-                                Action = category.ShowCategory
+                                Action = getCategory.Show
                                 
                             },
                             new Menu
@@ -85,12 +92,12 @@ namespace dotNET_shop
                     new Menu
                     {
                         Title = "Add Category",
-                        Action = category.AddCategory
+                        Action = addCategory.AddCategory
                     },
                     new Menu
                     {
                         Title = "Delete Category",
-                        Action = category.RemoveCategory
+                        Action = removeCategory.RemoveCategory
                     }
                 }
             });

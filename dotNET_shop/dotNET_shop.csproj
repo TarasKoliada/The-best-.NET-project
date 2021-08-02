@@ -48,6 +48,7 @@
     <Compile Include="Category\CategoryAdding.cs" />
     <Compile Include="Category\Category.cs" />
     <Compile Include="Category\GetCategory.cs" />
+    <Compile Include="FileWriter.cs" />
     <Compile Include="Product\GetProduct.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Product\ProductLogic.cs" />

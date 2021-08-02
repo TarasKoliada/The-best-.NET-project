@@ -14,7 +14,8 @@ namespace dotNET_shop
             var start = new StartProgram();
             start.Run();
 
-           
+            //FileWriter fw = new FileWriter();
+            //fw.SetProductFileData();
             
             
             //Tree menu

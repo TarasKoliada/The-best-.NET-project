@@ -8,6 +8,7 @@ namespace dotNET_shop
 {
     class CategoryAdding
     {
+        private FileWriter fileWriter = new FileWriter();
         public static int idIterator = 0;
         public static List<Category> categoryList = new List<Category>();
         public void AddCategory()
@@ -23,6 +24,7 @@ namespace dotNET_shop
                 idIterator++;
 
                 categoryList.Add(new Category() { category = category, Id = idIterator });
+                fileWriter.SetCategoryFileData();
 
                 Console.WriteLine("\n1) Add another one.");
                 Console.WriteLine("2) Stop");

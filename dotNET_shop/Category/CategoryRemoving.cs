@@ -8,6 +8,7 @@ namespace dotNET_shop
 {
     class CategoryRemoving
     {
+        private FileWriter fileWriter = new FileWriter();
         public void RemoveCategory()
         {
             if (CategoryAdding.categoryList.Count != 0)
@@ -26,6 +27,7 @@ namespace dotNET_shop
                     else
                     {
                         CategoryAdding.categoryList.Remove(deleteCategory);
+                        fileWriter.SetCategoryFileData();
                         Console.WriteLine($"\n---The Category with ID: {categoryId} has been removed---");
                     }
                 }

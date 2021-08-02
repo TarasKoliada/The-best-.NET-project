@@ -8,6 +8,7 @@ namespace dotNET_shop
 {
     class ProductRemoving
     {
+        FileWriter fileWriter = new FileWriter();
         public void RemoveProduct()
         {
             if (ProductAdding.productList.Count != 0)
@@ -26,6 +27,7 @@ namespace dotNET_shop
                     else
                     {
                         ProductAdding.productList.Remove(deleteProduct);
+                        fileWriter.SetProductFileData();
                         Console.WriteLine($"\n---The Product with ID: {productId} has been removed---");
                     }
                 }

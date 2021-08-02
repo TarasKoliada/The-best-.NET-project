@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +11,7 @@ namespace dotNET_shop
     {
         public static List<Product> productList = new List<Product>();
         public static int idIterator = 0;
+        FileWriter fileWriter = new FileWriter();
         public void AddProduct()
         {
             string name, stringPrice, stringExit;
@@ -26,7 +28,8 @@ namespace dotNET_shop
                 {
                     idIterator++;
                     productList.Add(new Product() { Name = name, Price = price, Id = idIterator });
-
+                    fileWriter.SetProductFileData();
+                    
                     Console.WriteLine("\n1) Add another one.");
                     Console.WriteLine("2) Stop");
                     Console.Write("Your choise: ");

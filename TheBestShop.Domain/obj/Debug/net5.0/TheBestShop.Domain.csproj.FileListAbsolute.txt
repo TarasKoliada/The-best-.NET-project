@@ -1,0 +1,12 @@
+D:\.NET shop\TheBestShop.Domain\bin\Debug\net5.0\TheBestShop.Domain.deps.json
+D:\.NET shop\TheBestShop.Domain\bin\Debug\net5.0\TheBestShop.Domain.dll
+D:\.NET shop\TheBestShop.Domain\bin\Debug\net5.0\ref\TheBestShop.Domain.dll
+D:\.NET shop\TheBestShop.Domain\bin\Debug\net5.0\TheBestShop.Domain.pdb
+D:\.NET shop\TheBestShop.Domain\obj\Debug\net5.0\TheBestShop.Domain.csproj.AssemblyReference.cache
+D:\.NET shop\TheBestShop.Domain\obj\Debug\net5.0\TheBestShop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET shop\TheBestShop.Domain\obj\Debug\net5.0\TheBestShop.Domain.AssemblyInfoInputs.cache
+D:\.NET shop\TheBestShop.Domain\obj\Debug\net5.0\TheBestShop.Domain.AssemblyInfo.cs
+D:\.NET shop\TheBestShop.Domain\obj\Debug\net5.0\TheBestShop.Domain.csproj.CoreCompileInputs.cache
+D:\.NET shop\TheBestShop.Domain\obj\Debug\net5.0\TheBestShop.Domain.dll
+D:\.NET shop\TheBestShop.Domain\obj\Debug\net5.0\ref\TheBestShop.Domain.dll
+D:\.NET shop\TheBestShop.Domain\obj\Debug\net5.0\TheBestShop.Domain.pdb

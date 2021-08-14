@@ -1,0 +1,17 @@
+D:\.NET shop\TheBestShop.BusinessLogic\bin\Debug\net5.0\TheBestShop.BusinessLogic.deps.json
+D:\.NET shop\TheBestShop.BusinessLogic\bin\Debug\net5.0\TheBestShop.BusinessLogic.dll
+D:\.NET shop\TheBestShop.BusinessLogic\bin\Debug\net5.0\ref\TheBestShop.BusinessLogic.dll
+D:\.NET shop\TheBestShop.BusinessLogic\bin\Debug\net5.0\TheBestShop.BusinessLogic.pdb
+D:\.NET shop\TheBestShop.BusinessLogic\bin\Debug\net5.0\TheBestShop.Contractors.dll
+D:\.NET shop\TheBestShop.BusinessLogic\bin\Debug\net5.0\TheBestShop.Domain.dll
+D:\.NET shop\TheBestShop.BusinessLogic\bin\Debug\net5.0\TheBestShop.Contractors.pdb
+D:\.NET shop\TheBestShop.BusinessLogic\bin\Debug\net5.0\TheBestShop.Domain.pdb
+D:\.NET shop\TheBestShop.BusinessLogic\obj\Debug\net5.0\TheBestShop.BusinessLogic.csproj.AssemblyReference.cache
+D:\.NET shop\TheBestShop.BusinessLogic\obj\Debug\net5.0\TheBestShop.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET shop\TheBestShop.BusinessLogic\obj\Debug\net5.0\TheBestShop.BusinessLogic.AssemblyInfoInputs.cache
+D:\.NET shop\TheBestShop.BusinessLogic\obj\Debug\net5.0\TheBestShop.BusinessLogic.AssemblyInfo.cs
+D:\.NET shop\TheBestShop.BusinessLogic\obj\Debug\net5.0\TheBestShop.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\.NET shop\TheBestShop.BusinessLogic\obj\Debug\net5.0\TheBestShop.BusinessLogic.csproj.CopyComplete
+D:\.NET shop\TheBestShop.BusinessLogic\obj\Debug\net5.0\TheBestShop.BusinessLogic.dll
+D:\.NET shop\TheBestShop.BusinessLogic\obj\Debug\net5.0\ref\TheBestShop.BusinessLogic.dll
+D:\.NET shop\TheBestShop.BusinessLogic\obj\Debug\net5.0\TheBestShop.BusinessLogic.pdb

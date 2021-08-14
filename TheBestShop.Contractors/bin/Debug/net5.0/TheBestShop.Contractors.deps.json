@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TheBestShop.Contractors/1.0.0": {
+        "dependencies": {
+          "TheBestShop.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TheBestShop.Contractors.dll": {}
+        }
+      },
+      "TheBestShop.Domain/1.0.0": {
+        "runtime": {
+          "TheBestShop.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TheBestShop.Contractors/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TheBestShop.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

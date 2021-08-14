@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TheBestDotNET_Shop/1.0.0": {
+        "dependencies": {
+          "TheBestShop.BusinessLogic": "1.0.0"
+        },
+        "runtime": {
+          "TheBestDotNET_Shop.dll": {}
+        }
+      },
+      "TheBestShop.BusinessLogic/1.0.0": {
+        "dependencies": {
+          "TheBestShop.Contractors": "1.0.0",
+          "TheBestShop.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TheBestShop.BusinessLogic.dll": {}
+        }
+      },
+      "TheBestShop.Contractors/1.0.0": {
+        "dependencies": {
+          "TheBestShop.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TheBestShop.Contractors.dll": {}
+        }
+      },
+      "TheBestShop.Domain/1.0.0": {
+        "runtime": {
+          "TheBestShop.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TheBestDotNET_Shop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TheBestShop.BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TheBestShop.Contractors/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TheBestShop.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

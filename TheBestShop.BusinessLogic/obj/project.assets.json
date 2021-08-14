@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "TheBestShop.Contractors/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "TheBestShop.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TheBestShop.Contractors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TheBestShop.Contractors.dll": {}
+        }
+      },
+      "TheBestShop.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/TheBestShop.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TheBestShop.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TheBestShop.Contractors/1.0.0": {
+      "type": "project",
+      "path": "../TheBestShop.Contractors/TheBestShop.Contractors.csproj",
+      "msbuildProject": "../TheBestShop.Contractors/TheBestShop.Contractors.csproj"
+    },
+    "TheBestShop.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TheBestShop.Domain/TheBestShop.Domain.csproj",
+      "msbuildProject": "../TheBestShop.Domain/TheBestShop.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "TheBestShop.Contractors >= 1.0.0",
+      "TheBestShop.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Legion\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\.NET shop\\TheBestShop.BusinessLogic\\TheBestShop.BusinessLogic.csproj",
+      "projectName": "TheBestShop.BusinessLogic",
+      "projectPath": "D:\\.NET shop\\TheBestShop.BusinessLogic\\TheBestShop.BusinessLogic.csproj",
+      "packagesPath": "C:\\Users\\Legion\\.nuget\\packages\\",
+      "outputPath": "D:\\.NET shop\\TheBestShop.BusinessLogic\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Legion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "D:\\.NET shop\\TheBestShop.Contractors\\TheBestShop.Contractors.csproj": {
+              "projectPath": "D:\\.NET shop\\TheBestShop.Contractors\\TheBestShop.Contractors.csproj"
+            },
+            "D:\\.NET shop\\TheBestShop.Domain\\TheBestShop.Domain.csproj": {
+              "projectPath": "D:\\.NET shop\\TheBestShop.Domain\\TheBestShop.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

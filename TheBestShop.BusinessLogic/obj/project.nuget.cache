@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nykEpEKDmYMSTR7ebK3py5zOocXsjt38tCRFr88q/z1duPuq+PhOUqVDT2k06jTSHAgXbzYKc2tdUlCQB8P+tg==",
+  "success": true,
+  "projectFilePath": "D:\\.NET shop\\TheBestShop.BusinessLogic\\TheBestShop.BusinessLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Legion\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Legion\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Legion\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

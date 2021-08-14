@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8cJDwCkYZAw0qm5MNDPbIc8OJNcEe8O/8lwYlbbz8AaWVAHGqF/137PN6LuXGxT0uRATFbWvU2RiawI/wJYpzg==",
+  "success": true,
+  "projectFilePath": "D:\\.NET shop\\TheBestShop.Contractors\\TheBestShop.Contractors.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Legion\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Legion\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Legion\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

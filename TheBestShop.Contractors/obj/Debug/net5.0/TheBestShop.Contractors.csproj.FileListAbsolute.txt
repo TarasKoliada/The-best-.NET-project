@@ -1,0 +1,15 @@
+D:\.NET shop\TheBestShop.Contractors\bin\Debug\net5.0\TheBestShop.Contractors.deps.json
+D:\.NET shop\TheBestShop.Contractors\bin\Debug\net5.0\TheBestShop.Contractors.dll
+D:\.NET shop\TheBestShop.Contractors\bin\Debug\net5.0\ref\TheBestShop.Contractors.dll
+D:\.NET shop\TheBestShop.Contractors\bin\Debug\net5.0\TheBestShop.Contractors.pdb
+D:\.NET shop\TheBestShop.Contractors\bin\Debug\net5.0\TheBestShop.Domain.dll
+D:\.NET shop\TheBestShop.Contractors\bin\Debug\net5.0\TheBestShop.Domain.pdb
+D:\.NET shop\TheBestShop.Contractors\obj\Debug\net5.0\TheBestShop.Contractors.csproj.AssemblyReference.cache
+D:\.NET shop\TheBestShop.Contractors\obj\Debug\net5.0\TheBestShop.Contractors.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET shop\TheBestShop.Contractors\obj\Debug\net5.0\TheBestShop.Contractors.AssemblyInfoInputs.cache
+D:\.NET shop\TheBestShop.Contractors\obj\Debug\net5.0\TheBestShop.Contractors.AssemblyInfo.cs
+D:\.NET shop\TheBestShop.Contractors\obj\Debug\net5.0\TheBestShop.Contractors.csproj.CoreCompileInputs.cache
+D:\.NET shop\TheBestShop.Contractors\obj\Debug\net5.0\TheBestShop.Contractors.csproj.CopyComplete
+D:\.NET shop\TheBestShop.Contractors\obj\Debug\net5.0\TheBestShop.Contractors.dll
+D:\.NET shop\TheBestShop.Contractors\obj\Debug\net5.0\ref\TheBestShop.Contractors.dll
+D:\.NET shop\TheBestShop.Contractors\obj\Debug\net5.0\TheBestShop.Contractors.pdb
